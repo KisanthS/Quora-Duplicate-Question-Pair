@@ -1,0 +1,23 @@
+# Core NLP and Embedding Models
+sentence-transformers==2.6.1
+spacy==3.7.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
+
+# Machine Learning & Evaluation
+scikit-learn==1.4.2
+torch>=1.10.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Web UI
+streamlit==1.35.0
+plotly==5.21.0
+
+# Voice Input
+SpeechRecognition==3.10.1
+pyaudio==0.2.13  # If error on install: pip install pipwin && pipwin install pyaudio (Windows only)
+
+# Other
+tqdm==4.66.4
